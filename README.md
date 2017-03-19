@@ -1,5 +1,4 @@
-![](http://i.imgur.com/jDIg5Xi.png)
-# Active Model Flags Gem
+# Banana Stand API Gem
 Provides a Ruby interface to interact with the Banana Stand API. See https://www.bananastand.io/resources for more help.
 
 # Installation
