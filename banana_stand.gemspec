@@ -1,13 +1,13 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bananastandio/version'
+require 'banana_stand/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bananastandio"
-  spec.version       = ActivemodelFlags::VERSION
+  spec.name          = "banana_stand"
+  spec.version       = BananaStand::VERSION
   spec.authors       = ["Jay El-Kaake"]
-  spec.email         = ["jay@bananastand.io"]
+  spec.email         = ["hi@bananastand.io"]
 
   spec.summary       = %q{Provides a Ruby interface to interact with the Banana Stand developer API.}
   spec.description   = %q{Provides a Ruby interface to interact with the Banana Stand API. See https://www.bananastand.io/resources for more help.}
@@ -34,5 +34,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", '~> 3.4'
   spec.add_development_dependency "sqlite3", '~> 1.3.11'
+  spec.add_runtime_dependency 'httparty'
+
+
 
 end
