@@ -2,7 +2,7 @@
 Provides a Ruby interface to interact with the Banana Stand API.
 
 # Usage and Installation
-***Please see https://www.bananastand.io/resources/ruby_gem for instructions***
+***Please see https://www.bananastand.io/resources/ruby_gem.html for instructions***
 
 # TODO
 * Add automated tests and hook into travis
